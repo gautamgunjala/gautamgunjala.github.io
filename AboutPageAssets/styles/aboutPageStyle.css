@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import url("../../webfonts/Quicksand_Light/stylesheet.css");
+@import url("../../webfonts/OpenSans_Regular/stylesheet.css");
+
 
 /* Global Styles */
 body {
@@ -45,20 +47,28 @@ header .profileHeader h1 {
     font-style: normal;
 }
 header .profileHeader h3 {
-	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
+    font-family: "OpenSans Regular";
+    color: rgba(146,146,146,1.00);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 hr {
 	background-color: rgba(208,207,207,1.00);
 	height: 1px;
 }
 header .profileHeader p {
-	font-family: sans-serif;
+	font-family: "Quicksand Light";
 	color: rgba(146,146,146,1.00);
 	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+header .profileHeader p2 {
+	font-family: "Quicksand Light";
+	color: rgba(146,146,146,1.00);
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 1.8;
 	overflow-y: auto;
@@ -107,10 +117,10 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: sans-serif;
 }
 .section2 .sectionContentTitle {
-	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 18px;
-	font-weight: 700;
+    font-family: "OpenSans Regular";
+    color: rgba(146,146,146,1.00);
+    font-size: 18px;
+    font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
@@ -348,8 +358,10 @@ header .profilePhoto {
     margin-top: 85px;
 }
 header .profileHeader {
-	text-align: left;
-	padding-top: 10%;
+    text-align: left;
+    padding-top: 10%;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
