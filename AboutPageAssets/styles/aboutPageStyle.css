@@ -70,7 +70,7 @@ header .profileHeader p2 {
 	color: rgba(146,146,146,1.00);
 	font-size: 24px;
 	font-weight: 400;
-	line-height: 1.8;
+	line-height: 24px;
 	overflow-y: auto;
 }
 header .socialNetworkNavBar {
@@ -165,7 +165,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 /* Footer */
 footer .footerDisclaimer {
-	font-family: sans-serif;
+	font-family: "OpenSans Light";
 	font-size: 14px;
 	line-height: 18px;
 	color: rgba(104,103,103,1.00);
@@ -402,9 +402,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Footer */
 footer .footerDisclaimer {
-	float: left;
-	margin-left: 3%;
-	font-family: sans-serif;
+    float: left;
+    margin-left: 3%;
+    font-family: "OpenSans Light";
 }
 footer .footerNote {
 	float: right;
