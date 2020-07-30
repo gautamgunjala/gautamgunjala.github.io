@@ -342,9 +342,10 @@ header .profileLogo .logoPlaceholder {
 	margin-bottom: 50px;
 }
 header .profilePhoto {
-	float: left;
-	clear: both;
-	margin-right: 3%;
+    float: left;
+    clear: both;
+    margin-right: 3%;
+    margin-top: 85px;
 }
 header .profileHeader {
 	text-align: left;
