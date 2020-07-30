@@ -1,6 +1,7 @@
 @charset "utf-8";
-/* Global Styles */
+@import url("../../webfonts/Quicksand_Light/stylesheet.css");
 
+/* Global Styles */
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -22,7 +23,7 @@ header .profileLogo .logoPlaceholder {
 header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Quicksand Light', sans-serif;
 	color: rgba(255,255,255,1.00);
 	font-size: 30px;
 	font-weight: 700;
@@ -36,11 +37,12 @@ header .profilePhoto {
 	clear: both;
 }
 header .profileHeader h1 {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 24px;
+    font-family: "Quicksand Light";
+    color: rgba(146,146,146,1.00);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
@@ -79,11 +81,10 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	display: block;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
+    font-family: "Quicksand Light";
+    color: rgba(146,146,146,1.00);
+    font-size: 18px;
+    font-weight: 700;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	margin: 0 3% 0 0;
@@ -139,7 +140,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	background-color: rgba(153,153,153,1.00);
 }
 .externalResourcesNav .externalResources a {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Quicksand Light', sans-serif;
 	color: rgba(255,255,255,1.00);
 	font-size: 14px;
 	font-weight: 400;
